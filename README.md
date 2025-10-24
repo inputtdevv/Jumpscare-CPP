@@ -2,6 +2,8 @@
 
 This small C++ program uses **SDL2** and **SDL2_image** to display an image and play an audio file directly from **remote URLs** — without using external libraries like libcurl.
 
+
+# ⭐ Star my Reo!
 It works by leveraging the built-in **Windows API (`URLDownloadToFile`)** to temporarily download the files before displaying and playing them with SDL2.
 
 ---
